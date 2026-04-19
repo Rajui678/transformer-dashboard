@@ -1,0 +1,29 @@
+# ── Secrets — NEVER commit these ────────────────────────────────────────
+.streamlit/secrets.toml
+.env
+*.env
+.env.*
+
+# ── Local database ───────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Python ───────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ── OS / editor ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
