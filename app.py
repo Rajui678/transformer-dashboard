@@ -16,7 +16,7 @@ try:
 except ImportError:
     pass
 
-import db
+
 
 from reportlab.lib.pagesizes import A4
 from reportlab.platypus import (SimpleDocTemplate, Table, TableStyle,
